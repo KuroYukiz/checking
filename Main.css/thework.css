@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	}
+.check{
+	background: linear-gradient( 90deg, #FFC20008, #F7F8FF, #F7F8FF);
+}
+.container1{
+    display: flex;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    gap: 150px;
+}
+.header{
+    margin-top: 200px;
+    line-height: 50px;
+    text-align: center;
+}
+body {
+    margin: auto;
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+}
+.headbutton{
+    margin-right: 5px;
+    background-color: yellow;
+}
+button:not(:disabled) {
+    cursor: pointer;
+}
+button{
+    margin: 0;
+    font-family: inherit;
+    line-height: inherit;
+}
+.h1{
+    border-radius: 11.584698677062988px;
+    width: 146px;
+    height: 48.67px;
+    border: none;
+	margin-top: 50px;
+}
+.no-bg{
+    background-color: transparent;
+}
+img{
+    vertical-align: middle;
+}
+.headerposter{
+    margin-top: 20px;
+    height: 92vh;
+    display: flex;
+}
+.headerposter img{
+    padding: 0%;
+    height: 200%;
+    width: 30%;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: -1;
+}
+.wave img{
+    width: 200%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-left: -0.5;
+    gap: 5px;
+}
+.intext{
+    font-size: small;
+}
+.dmb{
+    display: flex;
+    align-items: center !important;
+    margin-bottom: 2rem;
+}
+.coverheading{
+    padding: 10px;
+    margin: 10px;
+}
+.coverheading{
+    display: flex ;
+    box-shadow: 0px 0px 52.6301px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    height: 90px;
+}
